@@ -1,6 +1,8 @@
 function myFunction() {
    var element = document.getElementsByClassName("top");
    element[0].classList.toggle("dark-mode");
+   element = document.getElementsByClassName("heading");
+   element[0].classList.toggle("dark-mode3");
    element = document.getElementsByClassName("container");
    element[0].classList.toggle("dark-mode1");
    element = document.getElementsByClassName("form-container");
@@ -23,4 +25,8 @@ function myFunction() {
    element[0].classList.toggle("dark-mode3");
    element = document.getElementsByTagName("body");
    element[0].classList.toggle("filter");  
+   element = document.getElementsByTagName("path");
+   element[0].classList.toggle("dark-mode4"); 
+   element = document.getElementsByClassName("fill");
+   element[0].classList.toggle("dark-mode5"); 
 }

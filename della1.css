@@ -17,7 +17,7 @@ h2 {
 .header {
     overflow: hidden;
     background-color:#2c2c54;
-    padding: 20px 10px;
+    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     position:sticky;

@@ -27,6 +27,6 @@ function myFunction() {
    element[0].classList.toggle("filter");  
    element = document.getElementsByTagName("path");
    element[0].classList.toggle("dark-mode4"); 
-   element = document.getElementsByClassName("fill");
-   element[0].classList.toggle("dark-mode5"); 
+   element = document.getElementsByTagName("path");
+   element[1].classList.toggle("dark-mode5"); 
 }
